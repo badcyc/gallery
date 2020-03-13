@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <div id="wrap" class="wrap">
+            <div id="photo_{{index}}"class="photo photo-front">
+                <div class="photo-wrap">
+                    <div class="side front" >
+                            <p class="image">
+                                <img src="image/{{img}}" alt="photo">
+                            </p>
+                            <p class="title">{{title}}</p>
+                    </div>
+                    <div class="side back">
+                        <p class="describe">{{describe}}</p>
+                    </div> 
+                </div>                
+            </div>
+        </div>
+        <script src="js/data.js"></script>  
+        <script src="js/index.js"></script>
+       
+    </body>
+</html>
